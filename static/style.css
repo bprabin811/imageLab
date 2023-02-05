@@ -320,10 +320,11 @@ footer p {
 }
 .contact-form{
   display: flex;
-  height: 400px;
-  width: 350px;
+/*   height: 400px; */
+/*   width: 350px; */
   align-items: center;
   justify-content: center;
+  margin: 10px;
 }
 .contact-form input{
   width: 200px;
