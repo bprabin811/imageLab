@@ -5,7 +5,6 @@ from conversions import convert_to_jpg, convert_to_png, convertgif_toimg, conver
 from pdftools import compress_pdf,convert_pdf
 import io
 import time
-import numpy as np
 import base64
 from utils4 import generate_unique_id
 
