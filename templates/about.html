@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="../static/logo.ico">
+    <link defer rel="stylesheet" href="../static/style.css" />
+    <script defer src="../static/script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>ImageLab - About</title>
+  </head>
+
+  <body>
+    <!-- Header Starts from here -->
+    <header id="header">
+      <a href="/"><div class="right-header" id="righthead">Image<span>Lab</span></div></a>
+      <button id="nav-toggle" onclick="toggleNav()"><i class="fa fa-angle-double-down" aria-hidden="true" style="font-size: 25px;color: white;"></i>
+      </i>
+      </button>
+      <div class="left-header" id="lefthead">
+        <nav>
+          <ul id="nav-list">
+            <li><a href="/">Home</a></li>
+            <li><a href="/pdftool">PDF Tools</a></li>
+            <li  class="active-btn"><a href="/about">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Header Ends here -->
+    <!-- Section Starts here -->
+    <section class="error-container">
+      <h2 style="font-size: 16px;font-weight: bolder;">About Us</h2>
+      <div class="text-head">
+        <p>We are here to help you with all your image conversion needs! Whether you want to convert your images to PDF or any other extension, our team of experts are ready to assist you. Please fill out the form below and we will get back to you as soon as possible:</p>
+      </div>
+      
+        <div class="contact-form">
+          <form action="contact-form-handler" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="10" cols="40" style="resize: none;padding:5px;" required></textarea><br><br>
+            <input type="submit" value="Submit" class="button">
+          </form>
+        </div>
+        <h3>
+          Thank you for choosing imagelab for all your needs. We
+          look forward to working with you!
+        </h3>
+    </section>
+    <footer class="flex">
+      <p>All Right Reserved. 2022</p>
+    </footer>
+  </body>
+</html>
