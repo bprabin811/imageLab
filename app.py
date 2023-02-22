@@ -38,8 +38,9 @@ def about():
 def png_to_jpg():
     return convert_to_jpg()
 
-# @app.route('/bgremove', methods=['POST']) 
-# def background_remove():
+@app.route('/bgremove', methods=['POST']) 
+def background_remove():
+    return render_template("error.html",error_msg='Thank you for visiting! Our website is currently under construction. We apologize for any inconvenience.')
 #     return remove_bg()
 
 @app.route('/jpgtopngconvert', methods=['POST'])
